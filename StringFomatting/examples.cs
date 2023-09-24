@@ -25,3 +25,8 @@ Console.WriteLine(@"c:\invoices\app.exe -j");
 string firstName ="Bob";
 string message = $"Hello {firstName}!";
 Console.WriteLine(message);
+
+int version = 11;
+string updateText = "Update to Windows";
+string message = $"{updateText}{version}";
+Console.WriteLine(message);
