@@ -50,3 +50,10 @@ Console.WriteLine(@"View English output:
     c:\Excercise\"+projectName+@"\data.txt");
 Console.WriteLine($@"{russianMessage}:
     c:\Excercise\{projectName}\ru-RU\data.txt");
+
+//convert celcius and fahrenheit
+int fahrenheit = 94;
+decimal celcius = ((decimal)fahrenheit-32)*((decimal)5/(decimal)9);
+Console.WriteLine($@"
+Fahrenheit: {fahrenheit}
+Celcius: {celcius}");
