@@ -30,3 +30,8 @@ int version = 11;
 string updateText = "Update to Windows";
 string message = $"{updateText}{version}";
 Console.WriteLine(message);
+
+//verbatim and string literal
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}\Data");
+
